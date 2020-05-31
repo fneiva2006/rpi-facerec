@@ -1,0 +1,785 @@
+hello
+hi
+hey
+delete
+space
+done
+finish
+finished
+backspace
+back space
+how are you
+how are you doing
+good morning
+good afternoon
+good evening
+goodbye
+bye
+title
+recognise
+save face
+save file
+save
+stop
+start
+begin
+change focus
+focus
+spell
+spelling mode
+tallest building
+longest river
+biggest boat
+loudest noise
+smallest animal
+dog or cat
+fastest car
+slowest vehicle
+epiphany
+richest person
+browser
+open calculator
+save this
+open data folder
+show data folder
+good night
+happy christmas
+merry chirstmas
+happy easter
+my name is
+london
+rome
+what is your name
+whare are you from
+what are you
+see you
+could you repeat that please
+can you repeat
+thanks
+thank you
+in a new window
+in a new browser
+yes yep yeah
+no nope nah
+exit
+please
+one hundred thousand million
+link two
+number two
+link three
+number three
+link four
+number four
+link five
+number five
+link six
+number six
+link seven
+number seven
+link eight
+number eight
+link nine
+number nine
+link ten
+number ten
+eleven
+twelve
+thirteen
+fourteen
+fifteen
+sixteen
+seventeen
+eighteen
+nineteen
+twenty
+thirty
+fourty
+fifty
+sixty
+seventy
+eighty
+ninety
+monday
+tuesday
+wednesday
+thursday
+friday
+saturday
+sunday
+day
+days
+week
+weeks
+month
+months
+year
+years
+i am
+you are
+we
+they
+ok
+cancel
+alpha bravo charlie delta echo foxtrot golf hotel juliett kilo lima mike oscar papa quebec romeo sierra tango uniform victor whiskey x-ray yankee zulu
+amsterdam boy cast dog easy florida fox frank george havana john jerusalem king liverpool love oslo paris peter sugar sail tokyo victoria washington yellow zero
+apple atom animal
+baby blood big
+captain city chair clock child correct
+dad doctor dictionary
+example electricity experiment elephant element
+face fruit fish
+game general group good
+history happy hope
+instrument imagine industry insect
+job jump
+king key
+lady language letter light liquid
+machine money mouth man mountain
+number nature ninja
+object oxygen oragne oil
+paint population paper plant problem plane planet
+question quick quebeck
+race religion remember ring radio repeat record
+safe sentence science simple student
+table temperature tire travel triangle
+under up usain umbrella unicorn universe
+village voice verb view
+wait woman water window
+yellow yard
+what is the weather like today
+what is the weather forecast
+tomorrow
+what is the time
+what time is it
+what is the temperature
+what is the weather forecast
+give me the weather forecast
+will it rain
+is it rainy
+will it be sunny
+next week
+how hot is it
+can you please open
+search this
+open the browser
+internet
+enrico
+male
+female
+show me
+calendar
+open file
+go to
+google
+twitter
+facebook
+show me the news
+what is in the news
+what is the top news story
+bbc
+cnn
+open my email
+do i have any mail
+do i have any emails
+email
+inbox
+gmail
+yahoo
+youtube
+text
+make a new note
+notes
+write a note
+remember this for me
+reset audio card
+record audio
+play audio
+song
+reddit
+music
+i come from italy and i study in manchester
+manchester is in england uk
+the world is big
+you are a computer program
+software
+i am italian
+i am english
+i am american
+i am hungarian
+i am chinese
+i am venezuelan
+tell me something
+say something
+i am twenty years old
+how old are you
+i am a student
+i am a professor
+shutdown now
+shutdown in five minutes
+minute
+second
+seconds
+file
+folder
+directory
+program
+terminal
+linux
+web
+website
+input output
+raspberry pi
+circuit board
+user name password
+any new information
+touch screen
+camera
+define
+face recognition
+recognise me
+who am i
+what is my name
+how many people do you see
+track my face
+where are you
+whare am i
+what room are we in
+what room are you in
+where is you home
+how do you work
+what software do you use
+explain
+wikipedia
+wiki
+open calculator
+calculate
+plus
+times
+divide
+equals
+why
+when
+where
+how many
+who made you
+who programmed you
+who designed you
+what is your favourite film
+pick a movie
+find a song
+which song
+top ten
+i am a human person
+human being
+what are the three rules of robotics
+three laws of robotics
+robots
+you are robot
+close window
+close program
+list the news
+news list
+good bad
+new e-mail
+forward
+backward
+new window
+play file
+open file
+the file
+open and download
+download from
+download file
+go to
+a
+in
+for
+is
+on
+that
+by
+this
+with
+I
+you
+it
+not
+or
+be
+are
+from
+at
+as
+your
+all
+have
+new
+more
+an
+was
+we
+will
+home
+can
+us
+about
+if
+page
+my
+has
+search
+free
+but
+our
+one
+other
+do
+no
+information
+they
+site
+he
+up
+may
+what
+which
+their
+news
+out
+use
+any
+there
+see
+only
+so
+his
+when
+contact
+here
+business
+web
+now
+help
+get
+view page
+online
+been
+would
+how
+were
+me
+services
+some
+these
+like
+service
+than
+find
+maps
+price
+back
+top
+what is the date
+how many people
+had
+just
+state
+into
+health
+world
+re
+next
+used
+go
+work
+last
+most
+products
+buy
+data
+make
+them
+should
+product
+system
+post
+her
+city
+add
+number
+such
+please
+available
+support
+message
+after
+best
+then
+video
+well
+where
+info
+public
+book
+high school
+through
+each
+links
+link
+she
+review
+years
+order
+items
+company
+read
+group
+need
+said
+what does privacy mean
+set
+under
+general
+research
+university
+january
+february march april may june july august september october november december
+full
+map
+reviews
+program
+life
+know
+games
+way
+days
+part
+could
+great
+united
+hotel
+real
+item
+international
+country
+center
+ebay
+store
+travel
+comments
+made
+development
+report
+off
+on
+member
+details
+line
+terms
+before
+hotels
+did
+send
+right
+wrong
+type
+local
+those
+using
+results
+office
+education
+national
+car
+bike
+bicycle
+take
+posted
+internet
+address
+community
+within
+states
+area
+want
+phone
+dvd
+shipping
+reserved
+subject
+between
+family
+long
+based
+code
+show
+even
+black
+check
+special
+prices
+website
+index
+being
+women
+much
+sign
+open link
+technology
+south
+case
+project
+same
+pages
+version
+section
+own
+found
+football
+sport
+sports
+house
+related
+security
+both
+american
+photo
+game
+members
+power
+while
+care
+network
+down
+computer
+systems
+three
+total
+place
+end
+following
+download
+Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar
+Burma
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russian Federation
+Rwanda
+St Kitts & Nevis
+St Lucia
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe
+my name is Bonnie and I was born in San Antonio and the story I'm going to tell is about my mother
+a little background first
+Her see her mothers family were wealthy people at one time
+They owned car dealerships and extensive land
+I don't know if they were farmers or not but I know they were land owners
+many acres and her grandmother was raised in wealth
+then the Depression came and apparently everyone lost all their money
+she was raised in and she married a man this is my grandmother I'm talking about
+And they were very poor by this point and they had I think seven children
+And one particular Christmas things were very very difficult
+There was no money to buy any presents at all for the children and my grandfather
+who was killed when my mother was
+this was of course way before that he must have been a very positive person because what he did with the 
+situation was he he told the children that there were no presents this Christmas because they had given 
+them all to Santa to take the poor children and this made the children feel happy and proud of themselves 
+it gave them a good feeling that they had done something very nice for someone less fortunate than themselves
+I felt like that was a way to face that situation with such hope and with joy and with love
+although I never met my grandfather I have never forgotten that story and when I hear of him I think what a wonderful
+wonderful person he must have been
+And how long have you lived in Charlotte
+I have lived in Charlotte for a year
+I lived in Charlotte for five years
+We came here in
+we lived here for five years then we moved for seven years and now we have been back one year
+food
+closest restaurant
+Dennis

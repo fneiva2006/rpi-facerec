@@ -1,0 +1,47 @@
+1) CameraSys        - Implemented
+2) DetectionSys     - Implemented
+3) DataIO           - Dennis
+4) RecognitionSys   -
+5) UserInterface    -
+6) Controller       -
+7) SpeechHandler
+
+
+key = m_System->interface->getWindowKey()%256;
+
+        frame = m_System->cam->getFrame(180);
+        putText(frame, "Unknown Face", Point (15,20), 3, 0.8,Scalar(200,10,200), 1,4);
+        if (yes_flag==false)
+        {
+            sp_inp=inputProcedure(1);// requests and returns a y/n until y/n is pressed
+            putText(frame, "Would you like to register new person ? [y/n]", Point (15,40), 3, 0.8,Scalar(200,10,200), 1,4);
+        }
+
+        if( key == '\e' || (key == 'n'&&yes_flag==false) || sp_inp==string("q") || sp_inp==string ("n")) return;
+
+        if(key == 'y' || sp_inp==string("y") || yes_flag==true)
+        {
+            name = inputProcedure(2);
+            /* asks what is your name only once */
+            if (name[0] == '%') return;
+            if (yes_flag==false) UserInterface::speak("What is your name?");
+            /* adds keyboard input to name string if its not the first Y key */
+            else if (key>0 && key!= '\n')temp=temp+static_cast<char>(key);
+            yes_flag=true; // once yes is pressed requests a name
+            putText(frame, name+temp, Point (15,40), 3, 0.8,Scalar(200,10,200), 1,4);
+            // name is displayed on screen until $ is written for completion
+            if (name[name.size()-1]==('$') or key==('\n'))
+            {
+                /* if there is a speach input name will not be empty */
+                /* if user uses keyboard instead temp will store keyboard inputs */
+                /* Dual inputting is not considered */
+                if (name == string ("") && temp !=string("")) saveProcedure(CAface,frame, temp) ;
+                else if (name != string("") )saveProcedure(CAface,frame, name.substr(0,name.size()-1)) ;
+                else cerr<<"Error in unknownFaceProcedure: Empty input"<<endl;
+                //DataIO::speech_request(3);
+                /* Requests Convo mode */
+                yes_flag=false; // changes back to false (unneeded)
+                return;
+            }
+        }
+        m_System->interface->displayImage(MAIN_WINDOW_NAME,frame);

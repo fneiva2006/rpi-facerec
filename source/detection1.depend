@@ -1,0 +1,1312 @@
+# depslib dependency file v1.0
+1469454917 source:/home/pi/Documents/codeblocks/v4/detection1/ControlSystem.cpp
+	"ControlSystem.hpp"
+	<string>
+
+1469203578 /home/pi/Documents/codeblocks/v4/detection1/ControlSystem.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"UserInterface.hpp"
+
+1469119634 /home/pi/Documents/codeblocks/v4/detection1/common_headers.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+
+1450450936 /usr/local/include/opencv2/core.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/version.hpp"
+	"opencv2/core/base.hpp"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core/persistence.hpp"
+	"opencv2/opencv.hpp"
+	"opencv2/xfeatures2d.hpp"
+	"opencv2/core/operations.hpp"
+	"opencv2/core/cvstd.inl.hpp"
+	"opencv2/core/utility.hpp"
+	"opencv2/core/optim.hpp"
+
+1450450936 /usr/local/include/opencv2/core/cvdef.h
+	<limits.h>
+	"opencv2/core/hal/interface.h"
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<nmmintrin.h>
+	<popcntintrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<Intrin.h>
+	"arm_neon.h"
+	<arm_neon.h>
+	<intrin.h>
+
+1450450936 /usr/local/include/opencv2/core/hal/interface.h
+	<cstddef>
+	<stddef.h>
+	<cstdint>
+	<stdint.h>
+
+1450450936 /usr/local/include/opencv2/core/version.hpp
+
+1450450936 /usr/local/include/opencv2/core/base.hpp
+	<climits>
+	<algorithm>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/neon_utils.hpp"
+
+1450450936 /usr/local/include/opencv2/core/cvstd.hpp
+	"opencv2/core/cvdef.h"
+	<cstddef>
+	<cstring>
+	<cctype>
+	<string>
+	<algorithm>
+	<utility>
+	<cstdlib>
+	<cmath>
+	"opencv2/core/ptr.inl.hpp"
+
+1450450936 /usr/local/include/opencv2/core/ptr.inl.hpp
+	<algorithm>
+
+1450450936 /usr/local/include/opencv2/core/neon_utils.hpp
+	"opencv2/core/cvdef.h"
+
+1450450936 /usr/local/include/opencv2/core/traits.hpp
+	"opencv2/core/cvdef.h"
+
+1450450936 /usr/local/include/opencv2/core/matx.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/base.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/saturate.hpp"
+
+1450450936 /usr/local/include/opencv2/core/saturate.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/fast_math.hpp"
+
+1450450936 /usr/local/include/opencv2/core/fast_math.hpp
+	"opencv2/core/cvdef.h"
+	<fastmath.h>
+	<cmath>
+	<math.h>
+	"tegra_round.hpp"
+
+1450450936 /usr/local/include/opencv2/core/types.hpp
+	<climits>
+	<cfloat>
+	<vector>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/matx.hpp"
+
+1450450936 /usr/local/include/opencv2/core/mat.hpp
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/bufferpool.hpp"
+	"opencv2/core/mat.inl.hpp"
+
+1450450936 /usr/local/include/opencv2/core/bufferpool.hpp
+
+1450450936 /usr/local/include/opencv2/core/mat.inl.hpp
+
+1450450936 /usr/local/include/opencv2/core/persistence.hpp
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/opencv.hpp"
+	<time.h>
+
+1450450936 /usr/local/include/opencv2/opencv.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/video.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/ml.hpp"
+
+1450450936 /usr/local/include/opencv2/imgproc.hpp
+	"opencv2/core.hpp"
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	<opencv2/imgcodecs.hpp>
+	<opencv2/highgui.hpp>
+	<iostream>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	<math.h>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	"opencv2/imgproc.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+
+1450450936 /usr/local/include/opencv2/imgcodecs.hpp
+	"opencv2/core.hpp"
+	<opencv2/opencv.hpp>
+
+1450450936 /usr/local/include/opencv2/highgui.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1450450936 /usr/local/include/opencv2/videoio.hpp
+	"opencv2/core.hpp"
+	"opencv2/opencv.hpp"
+
+1450450936 /usr/local/include/opencv2/highgui/highgui_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgcodecs/imgcodecs_c.h"
+	"opencv2/videoio/videoio_c.h"
+
+1450450936 /usr/local/include/opencv2/core/core_c.h
+	"opencv2/core/types_c.h"
+	"cxcore.h"
+	"cxcore.h"
+	"opencv2/core/utility.hpp"
+
+1450450936 /usr/local/include/opencv2/core/types_c.h
+	<ipl.h>
+	<ipl/ipl.h>
+	"opencv2/core/cvdef.h"
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	"opencv2/core.hpp"
+
+1450450936 /usr/local/include/opencv2/core/utility.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/core_c.h"
+
+1450450936 /usr/local/include/opencv2/imgproc/imgproc_c.h
+	"opencv2/imgproc/types_c.h"
+
+1450450936 /usr/local/include/opencv2/imgproc/types_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /usr/local/include/opencv2/imgcodecs/imgcodecs_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /usr/local/include/opencv2/videoio/videoio_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /usr/local/include/opencv2/photo.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo/photo_c.h"
+
+1450450936 /usr/local/include/opencv2/photo/photo_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /usr/local/include/opencv2/video.hpp
+	"opencv2/video/tracking.hpp"
+	"opencv2/video/background_segm.hpp"
+	"opencv2/video/tracking_c.h"
+
+1450450936 /usr/local/include/opencv2/video/tracking.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+
+1450450936 /usr/local/include/opencv2/video/background_segm.hpp
+	"opencv2/core.hpp"
+
+1450450936 /usr/local/include/opencv2/video/tracking_c.h
+	"opencv2/imgproc/types_c.h"
+
+1450450936 /usr/local/include/opencv2/features2d.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+
+1450450936 /usr/local/include/opencv2/flann/miniflann.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/defines.h"
+
+1450450936 /usr/local/include/opencv2/flann/defines.h
+	"config.h"
+
+1450450936 /usr/local/include/opencv2/flann/config.h
+
+1450450936 /usr/local/include/opencv2/objdetect.hpp
+	"opencv2/core.hpp"
+	"opencv2/objdetect/detection_based_tracker.hpp"
+	"opencv2/objdetect/objdetect_c.h"
+
+1450450936 /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp
+	<vector>
+
+1450450936 /usr/local/include/opencv2/objdetect/objdetect_c.h
+	"opencv2/core/core_c.h"
+	<deque>
+	<vector>
+
+1450450936 /usr/local/include/opencv2/calib3d.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/core/affine.hpp"
+	"opencv2/calib3d/calib3d_c.h"
+
+1450450936 /usr/local/include/opencv2/core/affine.hpp
+	<opencv2/core.hpp>
+
+1450450936 /usr/local/include/opencv2/calib3d/calib3d_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /usr/local/include/opencv2/ml.hpp
+	"opencv2/core.hpp"
+	<float.h>
+	<map>
+	<iostream>
+
+1468542121 /usr/local/include/opencv2/xfeatures2d.hpp
+	"opencv2/features2d.hpp"
+	"opencv2/xfeatures2d/nonfree.hpp"
+
+1468542121 /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
+	"opencv2/features2d.hpp"
+
+1450450936 /usr/local/include/opencv2/core/operations.hpp
+	<cstdio>
+
+1450450936 /usr/local/include/opencv2/core/cvstd.inl.hpp
+	<complex>
+	<ostream>
+
+1450450936 /usr/local/include/opencv2/core/optim.hpp
+	"opencv2/core.hpp"
+
+1468542106 /usr/local/include/opencv2/face.hpp
+	"opencv2/core.hpp"
+	"face/predict_collector.hpp"
+	<map>
+	"opencv2/face/facerec.hpp"
+
+1468542106 /usr/local/include/opencv2/face/predict_collector.hpp
+	<vector>
+	<map>
+	<utility>
+	<cfloat>
+	"opencv2/core/cvstd.hpp"
+
+1468542106 /usr/local/include/opencv2/face/facerec.hpp
+	"opencv2/face.hpp"
+	"opencv2/core.hpp"
+
+1469459187 /home/pi/Documents/codeblocks/v4/detection1/definitions.hpp
+
+1469119640 /home/pi/Documents/codeblocks/v4/detection1/DetectionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"GeometricAux.hpp"
+	"definitions.hpp"
+
+1469119634 /home/pi/Documents/codeblocks/v4/detection1/GeometricAux.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469119634 /home/pi/Documents/codeblocks/v4/detection1/FrameRate.hpp
+	<iostream>
+	<time.h>
+	<thread>
+
+1469010716 /home/pi/Documents/codeblocks/v4/detection1/CameraSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469119634 /home/pi/Documents/codeblocks/v4/detection1/RecognitionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+	"definitions.hpp"
+
+1469119634 /home/pi/Documents/codeblocks/v4/detection1/DataIO.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+
+1469459951 /home/pi/Documents/codeblocks/v4/detection1/UserInterface.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	<ctype.h>
+	<fstream>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+
+1469444141 source:/home/pi/Documents/codeblocks/v4/detection1/d1_main.cpp
+	"ControlSystem.hpp"
+
+1469460224 source:/home/pi/Documents/codeblocks/v4/detection1/DataIO.cpp
+	"DataIO.hpp"
+	<ctype.h>
+	<string>
+
+1469119640 source:/home/pi/Documents/codeblocks/v4/detection1/DetectionSys.cpp
+	"DetectionSys.hpp"
+
+1469119634 source:/home/pi/Documents/codeblocks/v4/detection1/GeometricAux.cpp
+	"GeometricAux.hpp"
+
+1469119634 source:/home/pi/Documents/codeblocks/v4/detection1/RecognitionSys.cpp
+	"RecognitionSys.hpp"
+
+1469459033 source:/home/pi/Documents/codeblocks/v4/detection1/UserInterface.cpp
+	"UserInterface.hpp"
+
+1469208769 source:/home/pi/Documents/codeblocks/v6/detection1/ControlSystem.cpp
+	"ControlSystem.hpp"
+	<string>
+
+1469540330 /home/pi/Documents/codeblocks/v6/detection1/ControlSystem.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"UserInterface.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v6/detection1/common_headers.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v6/detection1/definitions.hpp
+
+1469540330 /home/pi/Documents/codeblocks/v6/detection1/DetectionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"GeometricAux.hpp"
+	"definitions.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v6/detection1/GeometricAux.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v6/detection1/FrameRate.hpp
+	<iostream>
+	<time.h>
+	<thread>
+
+1469540330 /home/pi/Documents/codeblocks/v6/detection1/CameraSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v6/detection1/RecognitionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+	"definitions.hpp"
+
+1469208409 /home/pi/Documents/codeblocks/v6/detection1/DataIO.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	<ctype.h>
+	<fstream>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+
+1469208767 /home/pi/Documents/codeblocks/v6/detection1/UserInterface.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+
+1469208718 source:/home/pi/Documents/codeblocks/v6/detection1/d1_main.cpp
+	"ControlSystem.hpp"
+
+1469208411 source:/home/pi/Documents/codeblocks/v6/detection1/DataIO.cpp
+	"DataIO.hpp"
+	<ctype.h>
+	<string>
+
+1469540330 source:/home/pi/Documents/codeblocks/v6/detection1/DetectionSys.cpp
+	"DetectionSys.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v6/detection1/GeometricAux.cpp
+	"GeometricAux.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v6/detection1/RecognitionSys.cpp
+	"RecognitionSys.hpp"
+
+1469208475 source:/home/pi/Documents/codeblocks/v6/detection1/UserInterface.cpp
+	"UserInterface.hpp"
+
+1470077869 source:/home/pi/Documents/codeblocks/v7_speech/detection1/DataIO.cpp
+	"DataIO.hpp"
+	<ctype.h>
+	<string>
+
+1469719793 /home/pi/Documents/codeblocks/v7_speech/detection1/DataIO.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	<ctype.h>
+	<fstream>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+
+1469210624 /home/pi/Documents/codeblocks/v7_speech/detection1/definitions.hpp
+
+1470146134 source:/home/pi/Documents/codeblocks/v7_speech/detection1/ControlSystem.cpp
+	"ControlSystem.hpp"
+	<string>
+
+1469725460 /home/pi/Documents/codeblocks/v7_speech/detection1/ControlSystem.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"UserInterface.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_speech/detection1/common_headers.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_speech/detection1/DetectionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"GeometricAux.hpp"
+	"definitions.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_speech/detection1/GeometricAux.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_speech/detection1/FrameRate.hpp
+	<iostream>
+	<time.h>
+	<thread>
+
+1469540330 /home/pi/Documents/codeblocks/v7_speech/detection1/CameraSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_speech/detection1/RecognitionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+	"definitions.hpp"
+
+1469717033 /home/pi/Documents/codeblocks/v7_speech/detection1/UserInterface.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+
+1470143658 source:/home/pi/Documents/codeblocks/v7_speech/detection1/d1_main.cpp
+	"ControlSystem.hpp"
+	<thread>
+
+1469718425 source:/home/pi/Documents/codeblocks/v7_speech/detection1/UserInterface.cpp
+	"UserInterface.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v7_speech/detection1/DetectionSys.cpp
+	"DetectionSys.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v7_speech/detection1/GeometricAux.cpp
+	"GeometricAux.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v7_speech/detection1/RecognitionSys.cpp
+	"RecognitionSys.hpp"
+
+1470204816 source:/media/SD FM/felipe/codeblocks/v7_speech/detection1/ControlSystem.cpp
+	"ControlSystem.hpp"
+	<string>
+
+1469725460 /media/SD FM/felipe/codeblocks/v7_speech/detection1/ControlSystem.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"UserInterface.hpp"
+
+1469540330 /media/SD FM/felipe/codeblocks/v7_speech/detection1/common_headers.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+
+1469210624 /media/SD FM/felipe/codeblocks/v7_speech/detection1/definitions.hpp
+
+1469540330 /media/SD FM/felipe/codeblocks/v7_speech/detection1/DetectionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"GeometricAux.hpp"
+	"definitions.hpp"
+
+1469540330 /media/SD FM/felipe/codeblocks/v7_speech/detection1/GeometricAux.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /media/SD FM/felipe/codeblocks/v7_speech/detection1/FrameRate.hpp
+	<iostream>
+	<time.h>
+	<thread>
+
+1469540330 /media/SD FM/felipe/codeblocks/v7_speech/detection1/CameraSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /media/SD FM/felipe/codeblocks/v7_speech/detection1/RecognitionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+	"definitions.hpp"
+
+1469719792 /media/SD FM/felipe/codeblocks/v7_speech/detection1/DataIO.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	<ctype.h>
+	<fstream>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+
+1470204997 /media/SD FM/felipe/codeblocks/v7_speech/detection1/UserInterface.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"Tokenizer.hpp"
+
+1470207260 /media/SD FM/felipe/codeblocks/v7_speech/detection1/Tokenizer.hpp
+	<string>
+	<iostream>
+	<vector>
+
+1470204886 source:/media/SD FM/felipe/codeblocks/v7_speech/detection1/d1_main.cpp
+	"ControlSystem.hpp"
+
+1470077868 source:/media/SD FM/felipe/codeblocks/v7_speech/detection1/DataIO.cpp
+	"DataIO.hpp"
+	<ctype.h>
+	<string>
+
+1469540330 source:/media/SD FM/felipe/codeblocks/v7_speech/detection1/DetectionSys.cpp
+	"DetectionSys.hpp"
+
+1469540330 source:/media/SD FM/felipe/codeblocks/v7_speech/detection1/GeometricAux.cpp
+	"GeometricAux.hpp"
+
+1469540330 source:/media/SD FM/felipe/codeblocks/v7_speech/detection1/RecognitionSys.cpp
+	"RecognitionSys.hpp"
+
+1470207260 source:/media/SD FM/felipe/codeblocks/v7_speech/detection1/Tokenizer.cpp
+	"Tokenizer.hpp"
+
+1470207071 source:/media/SD FM/felipe/codeblocks/v7_speech/detection1/UserInterface.cpp
+	"UserInterface.hpp"
+
+1470223387 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/ControlSystem.cpp
+	"ControlSystem.hpp"
+	<string>
+
+1470216001 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/ControlSystem.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"UserInterface.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/common_headers.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+
+1470219556 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/definitions.hpp
+
+1469540330 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/DetectionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"GeometricAux.hpp"
+	"definitions.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/GeometricAux.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/FrameRate.hpp
+	<iostream>
+	<time.h>
+	<thread>
+
+1469540330 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/CameraSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/RecognitionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+	"definitions.hpp"
+
+1469719792 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/DataIO.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	<ctype.h>
+	<fstream>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+
+1470223283 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/UserInterface.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"SpeechHandler.hpp"
+	"Tokenizer.hpp"
+
+1470207260 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/Tokenizer.hpp
+	<string>
+	<iostream>
+	<vector>
+
+1470215982 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/d1_main.cpp
+	"ControlSystem.hpp"
+
+1470077868 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/DataIO.cpp
+	"DataIO.hpp"
+	<ctype.h>
+	<string>
+
+1469540330 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/DetectionSys.cpp
+	"DetectionSys.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/GeometricAux.cpp
+	"GeometricAux.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/RecognitionSys.cpp
+	"RecognitionSys.hpp"
+
+1470207260 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/Tokenizer.cpp
+	"Tokenizer.hpp"
+
+1470221484 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/SpeechHandler.cpp
+	"SpeechHandler.hpp"
+
+1470221448 /home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/SpeechHandler.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DataIO.hpp"
+
+1470220030 source:/home/pi/Documents/codeblocks/v7_v2/v7_speech/detection1/UserInterface.cpp
+	"UserInterface.hpp"
+
+1470232021 source:/home/pi/Documents/codeblocks/v10_speech/detection1/d1_main.cpp
+	"ControlSystem.hpp"
+
+1470216000 /home/pi/Documents/codeblocks/v10_speech/detection1/ControlSystem.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"UserInterface.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v10_speech/detection1/common_headers.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+
+1470219556 /home/pi/Documents/codeblocks/v10_speech/detection1/definitions.hpp
+
+1469540330 /home/pi/Documents/codeblocks/v10_speech/detection1/DetectionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"GeometricAux.hpp"
+	"definitions.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v10_speech/detection1/GeometricAux.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v10_speech/detection1/FrameRate.hpp
+	<iostream>
+	<time.h>
+	<thread>
+
+1469540330 /home/pi/Documents/codeblocks/v10_speech/detection1/CameraSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 /home/pi/Documents/codeblocks/v10_speech/detection1/RecognitionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+	"definitions.hpp"
+
+1469719792 /home/pi/Documents/codeblocks/v10_speech/detection1/DataIO.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	<ctype.h>
+	<fstream>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+
+1470223282 /home/pi/Documents/codeblocks/v10_speech/detection1/UserInterface.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"SpeechHandler.hpp"
+	"Tokenizer.hpp"
+
+1470221448 /home/pi/Documents/codeblocks/v10_speech/detection1/SpeechHandler.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DataIO.hpp"
+
+1470207260 /home/pi/Documents/codeblocks/v10_speech/detection1/Tokenizer.hpp
+	<string>
+	<iostream>
+	<vector>
+
+1470077868 source:/home/pi/Documents/codeblocks/v10_speech/detection1/DataIO.cpp
+	"DataIO.hpp"
+	<ctype.h>
+	<string>
+
+1469540330 source:/home/pi/Documents/codeblocks/v10_speech/detection1/DetectionSys.cpp
+	"DetectionSys.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v10_speech/detection1/GeometricAux.cpp
+	"GeometricAux.hpp"
+
+1469540330 source:/home/pi/Documents/codeblocks/v10_speech/detection1/RecognitionSys.cpp
+	"RecognitionSys.hpp"
+
+1470207260 source:/home/pi/Documents/codeblocks/v10_speech/detection1/Tokenizer.cpp
+	"Tokenizer.hpp"
+
+1470232261 source:/home/pi/Documents/codeblocks/v10_speech/detection1/UserInterface.cpp
+	"UserInterface.hpp"
+
+1470232067 source:/home/pi/Documents/codeblocks/v10_speech/detection1/ControlSystem.cpp
+	"ControlSystem.hpp"
+	<string>
+
+1470232068 source:/home/pi/Documents/codeblocks/v10_speech/detection1/SpeechHandler.cpp
+	"SpeechHandler.hpp"
+
+1473270046 source:/home/pi/Documents/FACEREC/v11_speech/detection1/DataIO.cpp
+	"DataIO.hpp"
+	<ctype.h>
+	<string>
+
+1473269234 /home/pi/Documents/FACEREC/v11_speech/detection1/DataIO.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	<ctype.h>
+	<fstream>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+
+1473268486 /home/pi/Documents/FACEREC/v11_speech/detection1/definitions.hpp
+
+1469540330 source:/home/pi/Documents/FACEREC/v11_speech/detection1/DetectionSys.cpp
+	"DetectionSys.hpp"
+
+1473268484 /home/pi/Documents/FACEREC/v11_speech/detection1/DetectionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"GeometricAux.hpp"
+	"definitions.hpp"
+
+1469540330 /home/pi/Documents/FACEREC/v11_speech/detection1/GeometricAux.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1469540330 source:/home/pi/Documents/FACEREC/v11_speech/detection1/GeometricAux.cpp
+	"GeometricAux.hpp"
+
+1469540330 source:/home/pi/Documents/FACEREC/v11_speech/detection1/RecognitionSys.cpp
+	"RecognitionSys.hpp"
+
+1469540330 /home/pi/Documents/FACEREC/v11_speech/detection1/RecognitionSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+	"definitions.hpp"
+
+1470232068 source:/home/pi/Documents/FACEREC/v11_speech/detection1/SpeechHandler.cpp
+	"SpeechHandler.hpp"
+
+1470221448 /home/pi/Documents/FACEREC/v11_speech/detection1/SpeechHandler.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DataIO.hpp"
+
+1469540330 /home/pi/Documents/FACEREC/v11_speech/detection1/common_headers.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/face.hpp"
+
+1470207260 source:/home/pi/Documents/FACEREC/v11_speech/detection1/Tokenizer.cpp
+	"Tokenizer.hpp"
+
+1470207260 /home/pi/Documents/FACEREC/v11_speech/detection1/Tokenizer.hpp
+	<string>
+	<iostream>
+	<vector>
+
+1473265561 source:/home/pi/Documents/FACEREC/v11_speech/detection1/d1_main.cpp
+	"ControlSystem.hpp"
+
+1473271003 /home/pi/Documents/FACEREC/v11_speech/detection1/ControlSystem.hpp
+	"common_headers.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"UserInterface.hpp"
+
+1469540330 /home/pi/Documents/FACEREC/v11_speech/detection1/FrameRate.hpp
+	<iostream>
+	<time.h>
+	<thread>
+
+1469540330 /home/pi/Documents/FACEREC/v11_speech/detection1/CameraSys.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1473266576 /home/pi/Documents/FACEREC/v11_speech/detection1/UserInterface.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	<ctime>
+	<thread>
+	"opencv2/core.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	"definitions.hpp"
+	"DetectionSys.hpp"
+	"FrameRate.hpp"
+	"CameraSys.hpp"
+	"RecognitionSys.hpp"
+	"DataIO.hpp"
+	"SpeechHandler.hpp"
+	"Tokenizer.hpp"
+
+1473266747 source:/home/pi/Documents/FACEREC/v11_speech/detection1/UserInterface.cpp
+	"UserInterface.hpp"
+
+1473271666 source:/home/pi/Documents/FACEREC/v11_speech/detection1/ControlSystem.cpp
+	"ControlSystem.hpp"
+	<string>
+
